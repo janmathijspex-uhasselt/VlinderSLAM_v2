@@ -1,0 +1,24 @@
+Camera:
+  color_order: BGR
+  cols: 1280
+  cx: 641.448
+  cy: 369.54
+  fps: 30.0
+  fx: 644.96
+  fy: 643.99
+  k1: -0.0540036
+  k2: 0.0633233
+  k3: -0.0205713
+  model: perspective
+  name: RealSense_D455
+  p1: 0.000229426
+  p2: 0.000216758
+  rows: 720
+  setup: RGBD
+
+Relocalizer:
+  use_fixed_seed: true
+  min_num_bow_matches: 15
+  min_num_valid_obs: 20
+  max_num_ransac_iter: 250
+  num_common_words_thr_ratio: 0.8
